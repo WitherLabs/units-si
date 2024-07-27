@@ -1,6 +1,6 @@
 #pragma once
 
-#include <wither/units/velocity.hh>
+#include <wither/units/si/velocity.hh>
 
 namespace units
 {
@@ -15,4 +15,3 @@ using acceleration = metres_per_second_squared::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

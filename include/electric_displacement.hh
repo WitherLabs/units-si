@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/area.hh>
-#include <wither/units/charge.hh>
+#include <wither/units/si/area.hh>
+#include <wither/units/si/charge.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using electric_displacement = coulombs_per_square_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

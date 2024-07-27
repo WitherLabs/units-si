@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/plane_angle.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/plane_angle.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using angular_velocity = radians_per_second::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

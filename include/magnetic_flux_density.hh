@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/area.hh>
-#include <wither/units/magnetic_flux.hh>
+#include <wither/units/si/area.hh>
+#include <wither/units/si/magnetic_flux.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using magnetic_flux_density = teslas::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

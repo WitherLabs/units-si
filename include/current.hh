@@ -23,4 +23,3 @@ using current = impl::dimension<
 using amperes = impl::basic<dimensions::current, long double>;
 
 } // namespace units
-

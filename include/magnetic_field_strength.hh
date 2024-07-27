@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/current.hh>
-#include <wither/units/length.hh>
+#include <wither/units/si/current.hh>
+#include <wither/units/si/length.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using magnetic_field_strength = amperes_per_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

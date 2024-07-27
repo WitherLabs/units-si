@@ -23,4 +23,3 @@ using time = impl::dimension<
 using seconds = impl::basic<dimensions::time, long double>;
 
 } // namespace units
-

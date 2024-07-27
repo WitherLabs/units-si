@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/charge.hh>
-#include <wither/units/energy.hh>
+#include <wither/units/si/charge.hh>
+#include <wither/units/si/energy.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using voltage = volts::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

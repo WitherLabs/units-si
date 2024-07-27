@@ -23,4 +23,3 @@ using substance = impl::dimension<
 using moles = impl::basic<dimensions::substance, long double>;
 
 } // namespace units
-

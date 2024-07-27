@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/inductance.hh>
-#include <wither/units/length.hh>
+#include <wither/units/si/inductance.hh>
+#include <wither/units/si/length.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using permeability = henries_per_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

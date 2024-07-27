@@ -1,6 +1,6 @@
 #pragma once
 
-#include <wither/units/dose.hh>
+#include <wither/units/si/dose.hh>
 
 namespace units
 {

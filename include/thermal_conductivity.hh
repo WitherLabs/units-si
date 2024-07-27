@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/power.hh>
-#include <wither/units/temperature.hh>
+#include <wither/units/si/power.hh>
+#include <wither/units/si/temperature.hh>
 
 namespace units
 {
@@ -18,4 +18,3 @@ using thermal_conductivity = watts_per_metre_kelvin::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/pressure.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/pressure.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using dynamic_viscosity = pascal_seconds::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

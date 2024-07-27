@@ -1,6 +1,6 @@
 #pragma once
 
-#include <wither/units/length.hh>
+#include <wither/units/si/length.hh>
 
 namespace units
 {
@@ -15,4 +15,3 @@ using area = square_metres::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

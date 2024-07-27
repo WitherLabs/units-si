@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/substance.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/substance.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using catalytic_activity = katals::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

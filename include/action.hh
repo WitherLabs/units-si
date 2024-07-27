@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/energy.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/energy.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using action = joule_seconds::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

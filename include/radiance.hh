@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/power.hh>
-#include <wither/units/solid_angle.hh>
+#include <wither/units/si/power.hh>
+#include <wither/units/si/solid_angle.hh>
 
 namespace units
 {
@@ -17,4 +17,3 @@ using radiance = watts_per_square_metre_steradian::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

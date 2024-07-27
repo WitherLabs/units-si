@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/current.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/current.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using charge = coulombs::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

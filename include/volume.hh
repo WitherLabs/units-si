@@ -1,6 +1,6 @@
 #pragma once
 
-#include <wither/units/area.hh>
+#include <wither/units/si/area.hh>
 
 namespace units
 {
@@ -15,4 +15,3 @@ using volume = cubic_metres::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

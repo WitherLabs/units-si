@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/catalytic_activity.hh>
-#include <wither/units/volume.hh>
+#include <wither/units/si/catalytic_activity.hh>
+#include <wither/units/si/volume.hh>
 
 namespace units
 {
@@ -17,4 +17,3 @@ using catalytic_activity_per_unit_volume
 } // namespace dimensions
 
 } // namespace units
-

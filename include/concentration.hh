@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/substance.hh>
-#include <wither/units/volume.hh>
+#include <wither/units/si/substance.hh>
+#include <wither/units/si/volume.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using concentration = mole_per_cubic_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

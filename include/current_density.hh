@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/area.hh>
-#include <wither/units/current.hh>
+#include <wither/units/si/area.hh>
+#include <wither/units/si/current.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using current_density = amperes_per_square_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

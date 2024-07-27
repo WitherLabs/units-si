@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/force.hh>
-#include <wither/units/length.hh>
+#include <wither/units/si/force.hh>
+#include <wither/units/si/length.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using surface_tension = newtons_per_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

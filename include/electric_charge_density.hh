@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/charge.hh>
-#include <wither/units/volume.hh>
+#include <wither/units/si/charge.hh>
+#include <wither/units/si/volume.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using electric_charge_density = coulombs_per_cubic_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

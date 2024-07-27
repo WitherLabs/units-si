@@ -23,4 +23,3 @@ using luminous_intensity = impl::dimension<
 using candelas = impl::basic<dimensions::luminous_intensity, long double>;
 
 } // namespace units
-

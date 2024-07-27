@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/time.hh>
-#include <wither/units/voltage.hh>
+#include <wither/units/si/time.hh>
+#include <wither/units/si/voltage.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using magnetic_flux = webers::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

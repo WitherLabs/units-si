@@ -1,6 +1,6 @@
 #pragma once
 
-#include <wither/units/magnetic_flux.hh>
+#include <wither/units/si/magnetic_flux.hh>
 
 namespace units
 {
@@ -15,4 +15,3 @@ using inductance = henries::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

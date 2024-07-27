@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/length.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/length.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using velocity = metres_per_second::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

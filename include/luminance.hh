@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/area.hh>
-#include <wither/units/luminous_flux.hh>
+#include <wither/units/si/area.hh>
+#include <wither/units/si/luminous_flux.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using luminance = candelas_per_square_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

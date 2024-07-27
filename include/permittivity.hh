@@ -1,6 +1,6 @@
 #pragma once
 
-#include <wither/units/capacitance.hh>
+#include <wither/units/si/capacitance.hh>
 
 namespace units
 {
@@ -15,4 +15,3 @@ using permittivity = farads_per_metre::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

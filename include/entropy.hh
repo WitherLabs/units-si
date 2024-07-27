@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/energy.hh>
-#include <wither/units/temperature.hh>
+#include <wither/units/si/energy.hh>
+#include <wither/units/si/temperature.hh>
 
 namespace units
 {
@@ -17,4 +17,3 @@ using entropy = joules_per_kelvin::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

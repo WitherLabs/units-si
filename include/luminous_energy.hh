@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/luminous_flux.hh>
-#include <wither/units/time.hh>
+#include <wither/units/si/luminous_flux.hh>
+#include <wither/units/si/time.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using luminous_energy = lumen_second::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

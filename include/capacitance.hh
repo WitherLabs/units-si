@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/charge.hh>
-#include <wither/units/voltage.hh>
+#include <wither/units/si/charge.hh>
+#include <wither/units/si/voltage.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using capacitance = farads::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

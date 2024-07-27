@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/power.hh>
-#include <wither/units/solid_angle.hh>
+#include <wither/units/si/power.hh>
+#include <wither/units/si/solid_angle.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using radiant_intensity = watts_per_steradian::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

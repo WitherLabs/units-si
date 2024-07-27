@@ -23,4 +23,3 @@ using mass = impl::dimension<
 using grams = impl::basic<dimensions::mass, long double>;
 
 } // namespace units
-

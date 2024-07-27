@@ -23,4 +23,3 @@ using length = impl::dimension<
 using metres = impl::basic<dimensions::length, long double>;
 
 } // namespace units
-

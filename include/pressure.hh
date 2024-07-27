@@ -1,7 +1,7 @@
 #pragma once
 
-#include <wither/units/area.hh>
-#include <wither/units/force.hh>
+#include <wither/units/si/area.hh>
+#include <wither/units/si/force.hh>
 
 namespace units
 {
@@ -16,4 +16,3 @@ using pressure = pascals::magkind::dimension;
 } // namespace dimensions
 
 } // namespace units
-

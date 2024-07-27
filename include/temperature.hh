@@ -21,7 +21,6 @@ using temperature = impl::dimension<
 } // namespace dimensions
 
 using kelvins         = impl::basic<dimensions::temperature, long double>;
-using degrees_celsius = impl::derive_delta<std::ratio<27315, 100>, kelvins>;
+using degrees_celsius = impl::derive_delta<kelvins, std::ratio<27315, 100>>;
 
 } // namespace units
-
